@@ -15,14 +15,12 @@ t2_goals = int(input("Enter goals scored by team 2 : "))
 scorers_1 = []
 for goals in range(t1_goals):
     scorers_1.append(input(f"Enter scorer name for {t1} : "))
-if len(scorers_1) == 0:
-    del scorers_1
 
 scorers_2 = []
 for goals in range(t2_goals):
     scorers_2.append(input(f"Enter scorer name for {t2} : "))
-if len(scorers_2) == 0:
-    del scorers_2
+
+#results
 
 print("----------------------------Final score-----------------------------\n")
 
