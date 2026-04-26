@@ -20,6 +20,17 @@ scorers_2 = []
 for goals in range(t2_goals):
     scorers_2.append(input(f"Enter scorer name for {t2} : "))
 
+#goal minutes
+
+minutes_1 = []
+for i in range(t1_goals):
+  minutes_1.append(int(input(f"Enter minute of goal scored by {scorers_1[i]} for {t1} : ")))
+
+
+minutes_2 = []
+for i in range(t2_goals):
+  minutes_2.append(int(input(f"Enter minute of goal scored by {scorers_2[i]} for {t2} : ")))
+
 #results
 
 print("----------------------------Final score-----------------------------\n")
