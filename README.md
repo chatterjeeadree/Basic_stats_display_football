@@ -33,7 +33,8 @@ Navigate into the folder:
 
 Run the script:
 
-   python "Base Code"
+   python main.py
+   
 
 Sample Output
 Enter team 1 : Liverpool
