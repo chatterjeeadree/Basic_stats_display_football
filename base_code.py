@@ -33,26 +33,23 @@ for i in range(t2_goals):
 
 #results
 
-print("----------------------------Final score-----------------------------\n")
-
-print("             ",t1,   t1_goals,minutes_1,"         :          ",t2_goals,minutes_2,     t2,"        \n")
-
-
+print("\n----------------------------Final score-----------------------------\n")
+ 
+print(f"  {t1}  {t1_goals}  :  {t2_goals}  {t2}\n")
+ 
 max_scorers = max(len(scorers_1), len(scorers_2))
-
-
-for i in range(max_scorers):
-    scorer1 = scorers_1[i] if i < len(scorers_1) else ""
-    scorer2 = scorers_2[i] if i < len(scorers_2) else ""
-
-    min1 = f" ({minutes_1[i]}')" if i < len(minutes_1) else ""
-    min2 = f" ({minutes_2[i]}')" if i < len(minutes_2) else ""
-
-    left = scorer1 + min1
-    right = scorer2 + min2
-
-    print(f"{left:<25}{right:>35}")
-
-
-print("\n--------------------------------------------------------------------")
+ 
+if scorers_1 or scorers_2:
+    for i in range(max_scorers):
+        scorer1 = scorers_1[i] if i < len(scorers_1) else ""
+        scorer2 = scorers_2[i] if i < len(scorers_2) else ""
+ 
+        min1 = f"{minutes_1[i]}'" if i < len(minutes_1) else ""
+        min2 = f"{minutes_2[i]}'" if i < len(minutes_2) else ""
+ 
+        left = scorer1 + " " + min1
+        right = scorer2 + " " + min2
+ 
+        print(f"{left:<25}{right:>35}")
+print("\n--------------------------------------------------------------------")        
 
