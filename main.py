@@ -7,8 +7,17 @@ t2 = input("Enter team 2 : ")
 
 #team_goals
 
-t1_goals = int(input(f"Enter goals scored by {t1} : "))
-t2_goals = int(input(f"Enter goals scored by {t2} : "))
+while True:
+    t1_goals = int(input(f"Enter goals scored by {t1} : "))
+    if t1_goals >= 0:
+        break
+    print("Goals cannot be negative. Try again.")
+
+while True:
+    t2_goals = int(input(f"Enter goals scored by {t2} : "))
+    if t2_goals >= 0:
+        break
+    print("Goals cannot be negative. Try again.")
 
 #taking scorers
 
