@@ -46,9 +46,14 @@ if scorers_1 or scorers_2:
 
         scorer1 = scorers_1[i] if i < len(scorers_1) else ""
         scorer2 = scorers_2[i] if i < len(scorers_2) else ""
+        
+        min1 = f" ({minutes_1[i]}')" if i < len(minutes_1) else ""
+        min2 = f" ({minutes_2[i]}')" if i < len(minutes_2) else ""
 
+        left = scorer1 + min1
+        right = scorer2 + min2
 
-        print(f"{scorer1:<25} {scorer2:>35}")
+        print(f"{left:<25}{right:>35}")
 
 print("\n--------------------------------------------------------------------")
 
