@@ -7,8 +7,8 @@ t2 = input("Enter team 2 : ")
 
 #team_goals
 
-t1_goals = int(input("Enter goals scored by team 1 : "))
-t2_goals = int(input("Enter goals scored by team 2 : "))
+t1_goals = int(input(f"Enter goals scored by {t1} : "))
+t2_goals = int(input(f"Enter goals scored by {t2} : "))
 
 #taking scorers
 
