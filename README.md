@@ -39,8 +39,8 @@ Run the script:
 Sample Output
 Enter team 1 : Liverpool
 Enter team 2 : Barcelona
-Enter goals scored by team 1 : 4
-Enter goals scored by team 2 : 0
+Enter goals scored by Liverpool : 4
+Enter goals scored by Barcelona : 0
 
 ----------------------------Final score-----------------------------
 
