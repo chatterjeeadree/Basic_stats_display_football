@@ -4,20 +4,20 @@ A simple Python-based football match tracker that records and displays match res
 This is my first proper Python project, built to practise core programming concepts like loops, lists, f-strings, and formatted output.
 
 
-Features
+##Features
 
-Input team names and goals scored
-Record goal scorers for each team
-Capture the minute each goal was scored
-Display the final score in a clean, formatted layout
-Show scorers alongside their goal minutes in a two-column layout
+-Input team names and goals scored
+-Record goal scorers for each team
+-Capture the minute each goal was scored
+-Display the final score in a clean, formatted layout
+-Show scorers alongside their goal minutes in a two-column layout
 
 
-Tech Used
+##Tech Used
 
-Language: Python 3
-Concepts: for loops, lists, f-strings, conditional expressions, formatted string alignment (:< and :>)
-Tools: Git, GitHub
+-Language: Python 3
+-Concepts: for loops, lists, f-strings, conditional expressions, formatted string alignment (:< and :>)
+-Tools: Git, GitHub
 
 
 How to Run
