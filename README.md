@@ -1,4 +1,4 @@
-Basic Stats Display — Football Match Tracker
+# Basic Stats Display — Football Match Tracker
 A simple Python-based football match tracker that records and displays match results, goal scorers, and goal minutes in a clean, formatted layout.
 
 This is my first proper Python project, built to practise core programming concepts like loops, lists, f-strings, and formatted output.
